@@ -1,11 +1,10 @@
 package com.test;
 /*OPERATOR = PERFORM THE OPERATION...
-
  * ARITHEMATIC OPERATOR= (+,-,*,/,%)
  * (a+b)....a & b IS THE OPERAND....+ IS OPERATOR
  */
 import java.util.Scanner;
-public class ArithematicLogicalAssignmentOperators
+public class ArithematiOperators
 {
 public static void main(String[] args)
 {
@@ -49,46 +48,5 @@ System.out.println("The Mod is:"+mod);
 	The Mod is:0*/
 
 
-/*LOGICAL OPERATOR = (&& , || )*/
-
-public class LogicalOperator 
-{
-public static void main(String[] args) 
-{
-		
-	boolean a=true;
-	boolean b=false;
-	
-	System.out.println("a && b ="+(a&&b));
-    System.out.println("a || b ="+(a||b));
-    System.out.println("!(a&&b)="+!(a||b));
-}
-}
-	
-/*OUTPUT-
-*a && b =false
-a || b =true
-!(a&&b)=false*/
 
 
-/*ASSIGNMENT OPERATOR=(+=,-=,*=,/=)*/
-
-public class AssignmentOperator
-{
-public static void main(String[] args)
-	{
-		int a=10;
-		int b=5;
-		int c=0;
-		
-c=a+b;
-System.out.println("c=a+b:"+c);
-
-c+=b;//
-System.out.println("c+=b:"+c);
-	}	
-
-}
-/*OUTPUT=
- * c=a+b:15
- c+=b:20*/
