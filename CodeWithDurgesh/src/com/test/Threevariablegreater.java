@@ -23,3 +23,5 @@ public class Threevariablegreater {
 	}
 
 }
+/*OUTPUT=
+ * a is Greater*/
