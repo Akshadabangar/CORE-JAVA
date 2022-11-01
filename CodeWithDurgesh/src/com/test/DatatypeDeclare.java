@@ -19,7 +19,7 @@ public class DatatypeDeclare {
 		 * System.out.println("Enter the Int value:"); int a=sc.nextInt();
 		 */
 
-		int d = 20;
+		int d =20;
 		System.out.println("The int value:" + d);
 
 		char s = 'p';
@@ -42,3 +42,11 @@ public class DatatypeDeclare {
 
 	}
 }
+/* OUTPUT-The int value:20
+
+The Char value:p
+	 The double value:20.5
+The String value:Sonu
+The short value:12
+The long value:1000
+The Char value:true*/

@@ -22,3 +22,6 @@ public class TypeCasting {
 	}
 
 }
+/*OUTPUT=80.11
+80
+80*/
