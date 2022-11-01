@@ -15,9 +15,10 @@ public static void main(String[] args)
 	
 	y = (x == 20) ? 100: 200;  //TRUE(20=20)
 	System.out.println("Value of y is: " + y);  
-	}  
-	}  
+}
+}  
 
-	
-
+	/*OUTPUT=
+	 * Value of y is: 200
+Value of y is: 100*/
 
