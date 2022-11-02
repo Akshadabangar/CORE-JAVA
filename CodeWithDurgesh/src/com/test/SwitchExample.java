@@ -44,12 +44,13 @@ public static void main(String[] args)
 		
 	case 7:
 		System.out.println("Sunday");
-		break;*/
-	
-/*OUTPUT=	Wednesday*/
-	
+		break;
+		
+OUTPUT=	Wednesday*/
 
-System.out.println("1:Add");
+	
+//PROGRAM ADD,SUM,MUL,DIV,MOD
+/*System.out.println("1:Add");
 System.out.println("2.Sub");
 System.out.println("3.Mul");
 System.out.println("4.Div");
@@ -92,10 +93,7 @@ System.out.println("5.Mod");
 	 System.out.println(res);
 	 break;
 	 
- }
-}
-}
-/*OUTPUT =
+ OUTPUT =
  1:Add
 2.Sub
 3.Mul
@@ -109,5 +107,54 @@ Enter ur Choice:
 1
 35
  */
+	
+	
+//PROGRAM FOR AREA OF CIRCLE,TRIANGLE,SI
+	System.out.println("1:Area Of Circle");
+	System.out.println("2.Area Of Triangle");
+	System.out.println("3.SI");
 
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter ur choice:");
+	int choice=sc.nextInt();
+	
+	switch(choice) {
+	case 1:
+		System.out.println("Enter the radius:");
+		int r=sc.nextInt();
+		System.out.println("Area of Circle is:"+3.14*r*r);
+		break;
+		
+	case 2:
+		System.out.println("Enter the h & b:");
+		int h=sc.nextInt();
+		int b=sc.nextInt();
+		System.out.println("Area of Triangle is:"+(h*b)/2);
+		break;
+		
+	case 3:
+			System.out.println("Enter the p,n,r1");
+			int p=sc.nextInt();
+			int n=sc.nextInt();
+			int r1=sc.nextInt();
+			System.out.println("Area of SI:"+(p*n*r1)/100);
+			break;
+			
+	default:
+		System.out.println("Invalid ");
+	}		
+	}
+}
+/*OUTPUT =
+ * 1:Area Of Circle
+2.Area Of Triangle
+3.SI
+Enter ur choice:
+3
+Enter the p,n,r1
+2
+34
+5
+Area of SI:3
+ */
 
