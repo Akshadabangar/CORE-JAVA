@@ -95,5 +95,19 @@ System.out.println("5.Mod");
  }
 }
 }
+/*OUTPUT =
+ 1:Add
+2.Sub
+3.Mul
+4.Div
+5.Mod
+Enter Fist Number:
+12
+Enter Second Number:
+23
+Enter ur Choice:
+1
+35
+ */
 
 
