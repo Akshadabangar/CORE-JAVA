@@ -11,7 +11,7 @@ public class Fibonacci1 {
        System.out.println("Enter the range:");
        int range=sc.nextInt();
        
-       while(i<=range)
+       do
        {
     	   System.out.println(a+" ");
     	   c=a+b;
@@ -19,6 +19,7 @@ public class Fibonacci1 {
     	   b=c;
     	   i++;
        }
+       while(i<=range);
 	}
 
 }
